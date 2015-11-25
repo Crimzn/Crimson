@@ -74,6 +74,6 @@ ul {
     display: block;
     color: #cecece; }
     .sidebar li a:hover {
-      background-color: #424242; }
+      background-color: #fcaf3c; }
   .sidebar li .current {
-    background-color: #6b6464; }
+    background-color: #fcaf3c; }
