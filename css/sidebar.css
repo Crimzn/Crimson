@@ -9,7 +9,8 @@ html, body {
   padding-top: 90px;
   padding-bottom: 90px;
   width: 70px;
-  height: 100%; }
+  height: 100%;
+  background-color: transparent;}
 
 .jsc-sidebar-content {
   position: relative;
@@ -43,3 +44,4 @@ html, body {
 .jsc-sidebar-scroll-disabled {
   position: fixed;
   overflow: hidden; }
+

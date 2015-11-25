@@ -58,10 +58,13 @@ body {
     padding-left: 4px;
     padding-right: 4px;
 
+    
 }
-.fa:hover {
-    background: black;
+a .current {
+    background-color: crimson;
 }
+
+
 
 [data-tooltip]:before,
 [data-tooltip]:after,
@@ -168,7 +171,7 @@ body {
   margin-bottom: 0;
   margin-left: -12px;
   border-top-color: transparent;
-  border-right-color: #000;
+  border-right-color: transparent;
   border-right-color: hsla(0, 0%, 20%, 0.9);
 }
 
@@ -258,10 +261,65 @@ body {
   z-index: 1000;
   padding: 8px;
   width: 160px;
-  background-color: #000;
-  background-color: hsla(0, 0%, 20%, 0.9);
+  background-color: transparent;
+  background-color: transparent;
   color: #fff;
   content: attr(data-tooltip);
   font-size: 14px;
   line-height: 1.2;
+}
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
 }
