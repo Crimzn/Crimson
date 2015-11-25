@@ -1,57 +1,148 @@
+<!DOCTYPE html>
 <html>
     <head>
-        
-        <title>Joel McElroy</title>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <script src="typed.js"></script>
-        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet" />
-		<link rel="stylesheet" href="css/lib/fontello.css" />
-		<link rel="stylesheet" href="css/lib/normalize.css" />
-		
-		<link rel="stylesheet" href="css/index.css" />
-		
-		<link rel="stylesheet" href="css/sidebar.css" />
+        <title>
+            Joel McElroy
+        </title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href=
+        "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+        rel="stylesheet">
+        <script src="typed.js">
+        </script>
+        <link href=
+        "http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400"
+        rel="stylesheet">
+        <link href="css/lib/fontello.css" rel="stylesheet">
+        <link href="css/lib/normalize.css" rel="stylesheet">
+        <link href="animate.css" rel="stylesheet">
+        <link href="hover.css" rel="stylesheet">
+        <link href="css/component.css" rel="stylesheet">
+        <link href="css/default.css" rel="stylesheet" type="text/css">
+        <script src="js/modernizr.custom.js">
+        </script>
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/sidebar.css" rel="stylesheet">
     </head>
-    
     <body>
-        
-        <div class="container">  
-
-
-            <div class="title"><p>About Me</p></div><br />
-                        
-                <div class="blurb">                    
-                    My name is Joel, and I am currently 16 years old. At this time, I am scouting for potential employers that I can work for - whether that's developing server plugins or programming websites.<span class="blinking-cursor">|</span>
-                    
+        <div class="md-modal md-effect-12" id="modal-12">
+            <div class="md-content">
+                <h3>
+                    Skills/experience
+                </h3>
+                <div>
+                    <p>
+                        I have experience in both administrating networks and
+                        developing plugins:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Networking:</strong> I have been able to
+                            manage and deal with networking ensuring the safety
+                            of thousands player connections.
+                        </li>
+                        <li>
+                            <strong>Plugins:</strong> I have a creative mind
+                            when it comes to developing plugins. I work
+                            relatively fast, with effectiveness.
+                        </li>
+                        <li>
+                            <strong>Websites:</strong> Developing websites is
+                            probably my forte, as I can do both back-end and
+                            front-end programming!
+                        </li>
+                    </ul><button class="md-close">Close!</button>
                 </div>
-            
+            </div>
         </div>
-        
-        <nav class="sidebar jsc-sidebar" id="jsi-nav" data-sidebar-options="">
-	<ul class="sidebar-list">
-		<li><a href="index.html" class="tooltip-right" data-tooltip="Home"><i class="fa fa-home fa-2x"></i></a></li>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-		<li><a href="#" class="current tooltip-right" data-tooltip="About me"><i class="fa fa-info-circle fa-2x"></i></a></li>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-		<li><a href="#" class="tooltip-right" data-tooltip="Portfolio"><i class="fa fa-book fa-2x"></i></a></li>
-	</ul>
-</nav>
-
-
-
-        
-
+        <div class="md-modal md-effect-12" id="modal-13">
+            <div class="md-content">
+                <h3>
+                    Coding languages
+                </h3>
+                <div>
+                    <p>
+                        I am able to develop comfortable with the following
+                        languages:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Back-end:</strong> Java, JavaScript, SQL,
+                            PhP
+                        </li>
+                        <li>
+                            <strong>Front-end:</strong> HTML, CSS, JavaScript
+                        </li>
+                    </ul><button class="md-close">Close!</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title animated bounceInDown">
+                <p>
+                    About Me
+                </p>
+            </div><br>
+            <div class="blurb animated bounceInUp">
+                My name is Joel, and I am currently 16 years old. At this time,
+                I am scouting for potential employers that I can work for -
+                whether that's developing server plugins or programming
+                websites.<span class="blinking-cursor">|</span>
+                <div class="btn-experience hvr-float md-trigger" data-modal=
+                "modal-12">
+                    Experience
+                </div>
+                <div class="btn-knowledge hvr-float md-trigger" data-modal=
+                "modal-13">
+                    Languages
+                </div>
+                <div class="md-overlay"></div>
+            </div>
+        </div>
+        <nav class="sidebar jsc-sidebar" data-sidebar-options="" id="jsi-nav">
+            <ul class="sidebar-list">
+                <li>
+                    <a class="tooltip-right" data-tooltip="Home" href=
+                    "index.html"><i class="fa fa-home fa-2x"></i></a>
+                </li>
+                <li style="list-style: none">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+                <li>
+                    <a class="current tooltip-right" data-tooltip="About me"
+                    href="#"><i class="fa fa-info-circle fa-2x"></i></a>
+                </li>
+                <li style="list-style: none">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </li>
+                <li>
+                    <a class="tooltip-right" data-tooltip="Portfolio" href=
+                    "#"><i class="fa fa-book fa-2x"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="md-overlay"></div>
+        <script src="js/classie.js">
+        </script> 
+        <script src="js/modalEffects.js">
+        </script> 
+        <script>
+            // this is important for IEs
+            var polyfilter_scriptpath = '/js/';
+        </script> 
+        <script src="js/cssParser.js">
+        </script> 
+        <script src="js/css-filters-polyfill.js">
+        </script>
     </body>
-    
 </html>
