@@ -25,24 +25,46 @@
         <link href="css/sidebar.css" rel="stylesheet">
     </head>
     <body>
-        <div class="md-modal md-effect-12" id="modal-13">
+        <div class="md-modal md-effect-12" id="modal-12">
             <div class="md-content">
                 <h3>
                     Portfolio
                 </h3>
                 <div>
                     <p>
-                        This is a list of projects for server plugins:
+                        Here are a multitude of server plugins I have developed myself:
                     </p>
                     <ul>
                         <li>
-                            <strong>LobbySystem:</strong> This consists of gadgets and handling player connection data accordingly to ensure that 100% professional feel.
+                            <strong>Lobby Systems:</strong> I have been able to handle player connection data appropriated aswell as ensuring the server has the "network feel" to it.
                         </li>
                         <li>
-                            <strong>ZenithFFA:</strong> Free-for-all minigame, joining players, assigning teams and managing objectives. I have also dealt with stat tracking, especially enhancement to the competitive side of Mnecraft.
+                            <strong>ZenithFFA:</strong> A complete custom free-for-all minigame that assigns players to teams accordingly, objectives and stat tracking.
                         </li>
                         <li>
-                            <strong>StaffCore:</strong> Managing and handling staff permissions that including a complete reporting system, custom punishment system, staff chats and chat moderation methods.
+                            <strong>Database:</strong> Managing SQL is really enjoyable. I like creating interesting things and integrating it with my own plugins, enchancing the gaming experience for all players.
+                        </li>
+                    </ul><button class="md-close">Close!</button>
+                </div>
+            </div>
+        </div>
+        <div class="md-modal md-effect-12" id="modal-13">
+            <div class="md-content">
+                <h3>
+                    Coding languages
+                </h3>
+                <div>
+                    <p>
+                        I am able to develop comfortable with the following
+                        languages:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Back-end:</strong> Java, JavaScript, SQL,
+                            PhP
+                        </li>
+                        <li>
+                            <strong>Front-end:</strong> HTML, CSS, JavaScript
                         </li>
                     </ul><button class="md-close">Close!</button>
                 </div>
@@ -51,25 +73,30 @@
         <div class="container">
             <div class="title animated bounceInDown">
                 <p>
-                    Portfolio
+                    About Me
                 </p>
             </div><br>
             <div class="blurb animated bounceInUp">
-                Here you can view and assess my favourite projects whether it was successful or failure.<span class=
-                "blinking-cursor">|</span>
-            </div>
-            <div class="btn-server hvr-float md-trigger" data-modal=
-                "modal-13">
+                My name is Joel, and I am currently 16 years old. At this time,
+                I am scouting for potential employers that I can work for -
+                whether that's developing server plugins or programming
+                websites.<span class="blinking-cursor">|</span>
+                <div class="btn-server hvr-float md-trigger" data-modal=
+                "modal-12">
                     Server
                 </div>
-            <div class="md-overlay"></div>
+                <div class="btn-knowledge hvr-float md-trigger" data-modal=
+                "modal-13">
+                    Languages
+                </div>
+                <div class="md-overlay"></div>
+            </div>
         </div>
-        
         <nav class="sidebar jsc-sidebar" data-sidebar-options="" id="jsi-nav">
             <ul class="sidebar-list">
                 <li>
                     <a class="tooltip-right" data-tooltip="Home" href=
-                    "#"><i class="fa fa-home fa-2x"></i></a>
+                    "index.html"><i class="fa fa-home fa-2x"></i></a>
                 </li>
                 <li style="list-style: none">
                     <br>
@@ -80,8 +107,8 @@
                     <br>
                 </li>
                 <li>
-                    <a class="tooltip-right" data-tooltip="About me" href=
-                    "about.html"><i class="fa fa-info-circle fa-2x"></i></a>
+                    <a class="tooltip-right" data-tooltip="About me"
+                    href="#"><i class="fa fa-info-circle fa-2x"></i></a>
                 </li>
                 <li style="list-style: none">
                     <br>
@@ -93,9 +120,22 @@
                 </li>
                 <li>
                     <a class="current tooltip-right" data-tooltip="Portfolio" href=
-                    "#"><i class="fa fa-book fa-2x"></i></a>
+                    "portfolio.html"><i class="fa fa-book fa-2x"></i></a>
                 </li>
             </ul>
         </nav>
+        <div class="md-overlay"></div>
+        <script src="js/classie.js">
+        </script> 
+        <script src="js/modalEffects.js">
+        </script> 
+        <script>
+            // this is important for IEs
+            var polyfilter_scriptpath = '/js/';
+        </script> 
+        <script src="js/cssParser.js">
+        </script> 
+        <script src="js/css-filters-polyfill.js">
+        </script>
     </body>
 </html>
